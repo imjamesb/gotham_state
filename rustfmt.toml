@@ -1,0 +1,6 @@
+indent_style = "Block"
+hard_tabs = true
+reorder_imports = true
+comment_width = 70
+hex_literal_case = "Upper"
+match_block_trailing_comma = true
