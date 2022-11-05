@@ -12,7 +12,7 @@ use std::any::Any;
 use std::any::TypeId;
 use std::collections::BTreeMap;
 
-#[derive(Default)]
+#[derive(Default, Debug)]
 pub struct State {
 	data: BTreeMap<TypeId, Box<dyn Any>>,
 }
